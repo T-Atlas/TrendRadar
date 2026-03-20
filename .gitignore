@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+
+# Environment & secrets（勿提交密钥与 webhook）
+.env
+.env.*
+!.env.example
+docker/.env
+
+# 运行产物：SQLite、HTML 报告等（体积大且含本地数据）
+output/
+
+# 本地备份目录（若不需要纳入版本库）
+*-bak/
+
+# 日志
+*.log
+logs/
+
+# IDE / 编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 工具缓存
+.litellm_cache/
+
+output/
+output/*
+
+docker/.env
+config/config.yaml
